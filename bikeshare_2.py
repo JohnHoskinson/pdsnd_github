@@ -29,6 +29,8 @@ def time_convert(seconds):
         days = int(seconds // 86400)
         str += '{:,} days '.format(days) # format days to have thousands comma
         seconds -= days * 86400
+    else:
+        str += '0 days '
 
     if seconds >= 3600: # 60 seconds * 60 minutes = 3600 sec per hour
         hours = int(seconds // 3600)
