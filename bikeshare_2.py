@@ -35,7 +35,7 @@ def time_convert(seconds):
         str += '{} hours '.format(hours)
         seconds -= hours * 3600
 
-    if seconds >= 60:
+    if seconds >= 60:  # if remaining seconds > 60 extract minutes
         minutes = int(seconds // 60)
         str += '{} minutes '.format(minutes)
         seconds -= minutes * 60
