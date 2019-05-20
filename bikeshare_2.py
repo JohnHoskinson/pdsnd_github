@@ -43,6 +43,8 @@ def time_convert(seconds):
         minutes = int(seconds // 60)
         str += '{} minutes '.format(minutes)
         seconds -= minutes * 60
+    else:
+        str += '0 minutes '
 
     if seconds > 0:
         str += '{} seconds '.format(round(seconds,2))
