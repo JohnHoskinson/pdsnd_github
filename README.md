@@ -5,7 +5,11 @@
 Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+Interactive Python program that allows user to choose the city whose bikeshare usage data they'd like to investigate (Chicago, New York City or Washington DC).  User can then choose to filter data by:
+
+* Month
+* Day of week
+* No filter 
 
 ### Files used
 Include the files used
